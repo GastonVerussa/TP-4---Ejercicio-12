@@ -14,7 +14,7 @@ public class Test {
         int cantidadHamsters = 5;
         Hamster[] hamsters = new Hamster[cantidadHamsters];
         for(int i = 0; i < cantidadHamsters; i++){
-            hamsters[i] = new Hamster("Hamster " + String.valueOf(i+1), jaula);
+            hamsters[i] = new Hamster("Hamster " + (i+1), jaula);
         }
         for(int i = 0; i < cantidadHamsters; i++){
             hamsters[i].start();
